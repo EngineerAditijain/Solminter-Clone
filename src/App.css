@@ -1,0 +1,191 @@
+.App {
+  text-align: center;
+  display: flex;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* Control the left side */
+@media screen {
+  
+
+.container {
+  
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+ max-width: 100%;
+
+}
+.leftcontainer {
+  flex: 0.23;
+ text-align: center;
+ align-items: center;
+ justify-content: center;
+  float: left;
+ max-width: 40%;
+  height: 100vh;
+ 
+}
+
+/* Control the right side */
+.rightcontainer {
+  flex: 0.87;
+  background-color: rgb(240, 236, 243);
+  opacity: 1;
+  float: right;
+  max-width: 77%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  text-align: center;
+  font:bolder;
+  
+  
+}
+
+.wallet{
+  position: absolute;
+  top: 55%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-style:inherit;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: 400;
+}
+.logo1>img{
+
+  width: 40%;
+  height: 50%;
+ 
+  margin-top: 20px;
+}
+
+
+.token{
+  margin-top: 40px;
+  display: flex;
+  margin-left: 1.3rem;
+}
+.text-sm{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style:oblique;
+  font-weight:500;
+  font: 4em sans-serif;
+  color: #050505;
+  outline: #050505;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  text-decoration: none;
+}
+.token>img{
+  
+  max-width: 100%;
+    height: auto;
+    
+}
+.Ido1>img{
+  max-width: 100%;
+  height: auto;
+}
+.Ido1{
+  display: flex;
+  margin-left: 1.3rem;
+  margin-top: 10px;
+}
+.footer{
+  display:flex;
+ 
+}
+.footer>img{
+  align-items: center;
+ width: 10%;
+
+
+}
+.twitt1{
+  margin-left: 100px;
+  background-color:rgb(234, 226, 241) ;
+  border-radius: 30%;
+  
+  
+}
+.tele1{
+  margin-left: 10px;
+  background-color: rgb(234, 226, 241);
+  border-radius: 30%;
+}
+.bottom {
+ 
+  text-align: center;
+  margin-top: 100px; 
+}
+.Ido1:hover{
+  background-color:rgb(234, 226, 241) ;
+  border-radius: 4rem;
+}
+.token:hover{
+  background-color:rgb(234, 226, 241) ;
+  border-radius: 4rem;
+}
+.button1{
+  border-radius: 3.6rem;
+  border: solid darkviolet;
+  border-width: 0.5rem;
+  font-size: larger;
+  background-color: purple;
+  color: #fff;
+  font-weight: 400;
+  width: 80%;
+  text-align: center;
+  margin-top: 30px;
+}
+.box{
+  text-align: center;
+  
+}
+}
+/* If you want the content centered horizontally and vertically */
+
